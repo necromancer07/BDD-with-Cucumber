@@ -12,8 +12,8 @@ package MavenProject.AutomationPractice;
 			String result;
 			Properties prop=new Properties();
 			//inputing property file path to the file input stream,
-			FileInputStream ip=new FileInputStream("C:\\Users\\premjeet\\eclipse-workspace\\AutomationPractice\\Resources\\Property_file\\datapool.properties");
-			prop.load(ip);		
+			FileInputStream fip=new FileInputStream("Resources\\Property_file\\datapool.properties");
+			prop.load(fip);		
 			result=prop.getProperty(key);
 			return result;
 			
