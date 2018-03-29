@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "Features"
 		,glue = {"cucumberTest"},
-		plugin = {"pretty","html:AutomationPractice/Report/cucumber-reports"},
+		plugin = {"pretty","html:Report/cucumber-reports"},
 		monochrome = true
 		)
 public class TestRunner {

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="cucumberTest.TestRunner" time="0.016" errors="0" skipped="0">
+<testsuite tests="18" failures="0" name="cucumberTest.TestRunner" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="cucumber.options" value="--tags @tag3"/>
+    <property name="cucumber.options" value="--tags @tag1"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin"/>
     <property name="java.vm.version" value="25.92-b14"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -48,7 +48,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_92\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -DBROWSER=chrome test -Dcucumber.options=--tags @tag3"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -DBROWSER=chrome test -Dcucumber.options=--tags @tag1"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -67,10 +67,22 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Unsuccessful registration with email address" name="Given User is on Home Page" time="0.016"/>
-  <testcase classname="Scenario: Unsuccessful registration with email address" name="When User navigate to SignIn Page" time="0"/>
-  <testcase classname="Scenario: Unsuccessful registration with email address" name="And User enters invalid Email address &quot;ab1244.com&quot;" time="0"/>
-  <testcase classname="Scenario: Unsuccessful registration with email address" name="And User clicks on create account button" time="0"/>
-  <testcase classname="Scenario: Unsuccessful registration with email address" name="Then User should be able to see invalid email address message" time="0"/>
-  <testcase classname="Scenario: Unsuccessful registration with email address" name="Scenario: Unsuccessful registration with email address" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="Given User is on Home Page" time="0.006"/>
+  <testcase classname="Scenario: successful registration with email address" name="When User navigate to SignIn Page" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User enters email address &quot;sowq@gmail.com&quot;" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User clicks on create account button" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="When User clicks on Gender Title" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User enters &quot;Rossi&quot; in Personal Account First Name" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User enters &quot;Valencia&quot; in Personal Account Last name" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User enters &quot;Password@123&quot; in password field" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User enters &quot;Rossi&quot; in First Name" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User enters &quot;Valencia&quot; in Last name" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User enters &quot;12th street london&quot; in Address Field" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User enters &quot;London&quot; in City Field" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User selects appropriate State" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User enters &quot;23456&quot; in Zip Code Field" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User enters Phone Number &quot;4958371230&quot;" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="And User assign an address alias as &quot;xyz&quot;" time="0.001"/>
+  <testcase classname="Scenario: successful registration with email address" name="Then User Clicks on Register Button" time="0"/>
+  <testcase classname="Scenario: successful registration with email address" name="Scenario: successful registration with email address" time="0"/>
 </testsuite>
